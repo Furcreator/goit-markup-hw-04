@@ -495,6 +495,25 @@ main {
   color: rgba(255, 255, 255, 60%);
 }
 
+/* PART CELLAR  */
+
+.part-cellar-item {
+  fill: var(--font--color);
+}
+
+.part-cellar-link {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(255, 255, 255, 0.1);;
+}
+
+.part-cellar h2 {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--font--color);
+}
+
 /* PORTFOLIO HTML STUDIO */ /* PORTFOLIO HTML STUDIO */ /* PORTFOLIO HTML STUDIO */ /* PORTFOLIO HTML STUDIO */ /* PORTFOLIO HTML STUDIO */
 
 /* PORTFOLIO HTML STUDIO */ /* PORTFOLIO HTML STUDIO */ /*  PORTFOLIO TML STUDIO */ /* PORTFOLIO HTML STUDIO */ /* PORTFOLIO HTML STUDIO */
