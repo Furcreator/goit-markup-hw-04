@@ -443,7 +443,6 @@ main {
   fill: var(--duo-text-color);
   width: 106px;
   height: 60px;
-  
 }
 
 .clients-list-item:not(:last-child) {
@@ -459,6 +458,13 @@ main {
 }
 
 /* FOOTER */
+
+/* CELLAR CONTENT  */
+
+.cellar-content {
+  display: flex;
+  align-items: baseline;
+}
 
 .cellar {
   background-color: var(--color-futter);
@@ -497,21 +503,48 @@ main {
 
 /* PART CELLAR  */
 
+.part-cellar {
+  margin-left: 70px;
+}
+
+.cellar-icon {
+  display: flex;
+}
+
 .part-cellar-item {
   fill: var(--font--color);
+  width: 20px;
+  height: 20px;
 }
 
 .part-cellar-link {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(255, 255, 255, 0.1);;
+  display: block;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 50%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    rgba(255, 255, 255, 0.1);
+}
+
+.cellar-icon-list:not(:last-child) {
+  margin-right: 10px;
+}
+
+.part-cellar-link:hover {
+  background: none;
+  background-color: var(--accent-color);
 }
 
 .part-cellar h2 {
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--font--color);
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--font--color);
 }
 
 /* PORTFOLIO HTML STUDIO */ /* PORTFOLIO HTML STUDIO */ /* PORTFOLIO HTML STUDIO */ /* PORTFOLIO HTML STUDIO */ /* PORTFOLIO HTML STUDIO */
@@ -542,8 +575,6 @@ color: var(--font--color);
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 
@@ -551,6 +582,8 @@ color: var(--font--color);
 .filters:focus {
   background-color: var(--accent-color);
   color: var(--font--color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .posters {
@@ -561,6 +594,11 @@ color: var(--font--color);
 
 .posters-list {
   flex-basis: calc((100% - 60px) / 3);
+}
+
+.posters-list:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .posters li {
